@@ -1,9 +1,10 @@
 body {
-    margin: 0;
-    padding: 0;
-    background:url(/assets/imgs/henry-be-IicyiaPYGGI-unsplash.png);
-    background-size: cover;
+    background-image:url(/assets/imgs/henry-be-IicyiaPYGGI-unsplash.png);
+    height: 100%;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     font-family: sans-serif;
 }
 
