@@ -24,13 +24,15 @@ body {
 .avatar {
     width: 100px;
     height: 100px;
+    border-radius: 50%;
     position: absolute;
     top: -10%;
     left: calc(50% - 50px);
+    
 }
 
 h1 {
-    margin: 0;
+    margin: 0 0 20px;
     padding: 0;
     text-align: center;
     font-size: 22px;
@@ -75,7 +77,7 @@ h1 {
 .loginbox input[type="submit"]:hover   
 {
     cursor: pointer;
-    background-color: #8a9514 !important;
+    background-color: #fff !important;
     color: #000;
 }
 
@@ -84,7 +86,7 @@ h1 {
     text-decoration: none;
     font-size: 12px;
     line-height: 20px;
-    color: #c6a552 !important;
+    color: #8f8d8d !important;
 }
 
 .loginbox a:hover
